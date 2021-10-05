@@ -14,3 +14,36 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.navbar {
+  width: 100vw;
+  height: 100px;
+  background-color: #158adb;
+  color: #fff;
+}
+
+.footer {
+  width: 100vw;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: green;
+  color: #fff;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.contenido {
+  flex-grow: 4;
+}
